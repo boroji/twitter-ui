@@ -10,6 +10,11 @@ class SidebarHome extends LitElement {
 				gap: 12px;
 				padding: 12px;
 				border-radius: 50px;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: var(--regular-weight);
+				line-height: 20px;
+				letter-spacing: 0px;
 			}
 
 			/* Default Styles */

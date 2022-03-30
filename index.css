@@ -28,6 +28,8 @@
 	--alert-95: hsla(333, 92.3%, 94.9%, 1);
 	--alert-70: hsla(332, 94.8%, 70%, 1);
 	--alert-50: hsla(332, 94.9%, 53.5%, 1);
+	--bold-weight: 700;
+	--regular-weight: 400;
 }
 
 *,
@@ -36,9 +38,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Barlow', sans-serif;
 }
 
 html,
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Barlow', sans-serif;
 }
