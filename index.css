@@ -19,6 +19,7 @@
 	--gray-25: hsla(0, 0%, 25.1%, 1);
 	--transparent-25: hsla(205, 88.2%, 90%, 0.250);
 	--transparent-10: hsla(200, 81.8%, 97.8%, 0.100);
+	--transparent-0: hsla(200, 81.8%, 97.8%, 0.0);
 	--success-98: hsla(126, 100%, 98%, 1);
 	--success-95: hsla(129, 100%, 94.9%, 1);
 	--success-60: hsla(128, 100%, 60%, 1);

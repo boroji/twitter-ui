@@ -3,12 +3,51 @@ import { LitElement, html, css } from '../../lit.js';
 class SidebarHome extends LitElement {
 	static styles = [
 		css`
+			:host,
 			div {
 				display: inline-flex;
 				align-items: center;
 				gap: 12px;
 				padding: 12px;
-				background-color: var(--primary-50);
+				border-radius: 50px;
+			}
+
+			/* Default Styles */
+
+			:host(.default) svg path {
+				fill: var(--secondary-15);
+			}
+
+			:host(.default) {
+				background-color: var(--gray-100);
+				color: var(--secondary-15);
+			}
+
+			:host(.default:hover) {
+				background-color: var(--primary-98);
+			}
+
+			:host(.default.active) {
+				background-color: var(--primary-90);
+			}
+
+			/* Dark Styles */
+
+			:host(.dark) svg path {
+				fill: var(--gray-100);
+			}
+
+			:host(.dark) {
+				background-color: var(--transparent-0);
+				color: var(--gray-100);
+			}
+
+			:host(.dark:hover) {
+				background-color: var(--transparent-10);
+			}
+
+			:host(.dark.active) {
+				background-color: var(--transparent-25);
 			}
 		`,
 	];
