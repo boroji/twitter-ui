@@ -1,6 +1,11 @@
 import { LitElement, html, css } from '../../lit.js';
+import DarkStyles from '../Styles/DarkStyles.js';
+import DefaultStyles from '../Styles/DefaultStyles.js';
+import SidebarButtonStyles from '../Styles/SidebarButtonStyles.js';
 
 class SidebarHome extends LitElement {
+	static styles = [ SidebarButtonStyles, DarkStyles, DefaultStyles ];
+
 	static properties = {
 		toggle : { type: Boolean },
 	};
@@ -9,62 +14,6 @@ class SidebarHome extends LitElement {
 		super();
 		this.toggle = true;
 	}
-
-	static styles = [
-		css`
-			:host,
-			div {
-				display: inline-flex;
-				align-items: center;
-				gap: 12px;
-				padding: 12px;
-				border-radius: 50px;
-				font-size: 20px;
-				font-style: normal;
-				font-weight: var(--regular-weight);
-				line-height: 20px;
-				letter-spacing: 0px;
-			}
-
-			/* Default Styles */
-
-			:host(.default) svg path {
-				fill: var(--secondary-15);
-			}
-
-			:host(.default) {
-				background-color: var(--gray-100);
-				color: var(--secondary-15);
-			}
-
-			:host(.default:hover) {
-				background-color: var(--primary-98);
-			}
-
-			:host(.default.active) {
-				background-color: var(--primary-90);
-			}
-
-			/* Dark Styles */
-
-			:host(.dark) svg path {
-				fill: var(--gray-100);
-			}
-
-			:host(.dark) {
-				background-color: var(--transparent-0);
-				color: var(--gray-100);
-			}
-
-			:host(.dark:hover) {
-				background-color: var(--transparent-10);
-			}
-
-			:host(.dark.active) {
-				background-color: var(--transparent-25);
-			}
-		`,
-	];
 
 	render () {
 		return this.toggle
