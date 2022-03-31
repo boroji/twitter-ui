@@ -5,3 +5,5 @@ import './Components/Sidebar/SidebarBookmark.js';
 import './Components/Sidebar/SidebarList.js';
 import './Components/Sidebar/SidebarMore.js';
 import './Components/Sidebar/SidebarProfile.js';
+import './Components/Sidebar/SidebarMoon.js';
+import './Components/Sidebar/SidebarLogo.js';

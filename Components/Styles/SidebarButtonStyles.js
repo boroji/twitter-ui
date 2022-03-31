@@ -15,6 +15,11 @@ const SidebarButtonStyles = css`
 		letter-spacing: 0px;
 		cursor: pointer;
 	}
+
+	:host p {
+		padding: 0;
+		margin: 0;
+	}
 `;
 
 export default SidebarButtonStyles;

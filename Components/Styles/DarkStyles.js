@@ -17,6 +17,10 @@ const DarkStyles = css`
 	:host(.dark.active) {
 		background-color: var(--transparent-25);
 	}
+
+	:host(.dark.active) p {
+		font-weight: var(--bold-weight);
+	}
 `;
 
 export default DarkStyles;
