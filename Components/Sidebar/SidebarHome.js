@@ -1,4 +1,4 @@
-import { LitElement, html, css } from '../../lit.js';
+import { LitElement, html } from '../../lit.js';
 import DarkStyles from '../Styles/DarkStyles.js';
 import DefaultStyles from '../Styles/DefaultStyles.js';
 import SidebarButtonStyles from '../Styles/SidebarButtonStyles.js';
@@ -16,6 +16,7 @@ class SidebarHome extends LitElement {
 	}
 
 	render () {
+		// SVG Render with Outline Icon
 		return this.toggle
 			? html`
     <div @click=${this.switchToggle}>
@@ -34,7 +35,8 @@ class SidebarHome extends LitElement {
      <p>Home</p>
     </div>
     `
-			: html`
+			: // SVG Render with Filled Icon
+				html`
     <div @click=${this.switchToggle}>
      <svg
 						width='24'
