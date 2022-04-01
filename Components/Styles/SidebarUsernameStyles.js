@@ -21,37 +21,16 @@ const SidebarUsernameStyles = css`
 		gap: 4px;
 	}
 
-	:host section p {
-		margin: 0;
-		padding: 0;
-	}
-
-	:host(.default) section p:first-child,
-	:host(.dark) section p:first-child {
-		font-size: 16px;
-		font-weight: var(--bold-weight);
-		line-height: 16px;
-		letter-spacing: 0.25px;
-	}
-
-	:host(.default) section p:last-child,
-	:host(.dark) section p:last-child {
-		font-size: 14px;
-		font-weight: var(--regular-weight);
-		line-height: 14px;
-		letter-spacing: 0px;
-	}
-
-	:host(.default) section p:first-child {
+	:host(.default) section type-style:first-child {
 		color: var(--secondary-25);
 	}
 
-	:host(.default) section p:last-child {
+	:host(.default) section type-style:last-child {
 		color: var(--secondary-40);
 	}
 
-	:host(.dark) section p:first-child,
-	:host(.dark) section p:last-child {
+	:host(.dark) section type-style:first-child,
+	:host(.dark) section type-style:last-child {
 		color: var(--gray-100);
 	}
 `;
