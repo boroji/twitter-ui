@@ -9,6 +9,7 @@ const SidebarButtonStyles = css`
 		padding: 12px;
 		border-radius: 50px;
 		cursor: pointer;
+		transition: all 100ms ease-out;
 	}
 `;
 

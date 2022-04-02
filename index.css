@@ -42,4 +42,46 @@
 html,
 body {
 	font-family: 'Barlow', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	transition: background-color 200ms ease-in-out;
+}
+
+body.light-theme {
+	background-color: var(--gray-100);
+}
+
+body.dark-theme {
+	background-color: var(--secondary-15);
+}
+
+aside {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding: 16px;
+}
+
+aside header {
+	display: flex;
+	justify-content: space-between;
+}
+
+aside section {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 16px;
+}
+
+aside footer {
+	display: flex;
+	flex-grow: 1;
+	align-items: flex-end;
 }

@@ -8,6 +8,7 @@ const SidebarUsernameStyles = css`
 		padding: 16px;
 		align-items: center;
 		border-radius: 100px;
+		transition: all 100ms ease-out;
 	}
 
 	:host img {
