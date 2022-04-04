@@ -7,8 +7,9 @@ import './Components/Sidebar/SidebarMore.js';
 import './Components/Sidebar/SidebarProfile.js';
 import './Components/Sidebar/SidebarMoon.js';
 import './Components/Sidebar/SidebarLogo.js';
-import './Components/Button/PrimaryButton.js';
 import './Components/Sidebar/SidebarUsername.js';
+import './Components/Button/PrimaryButton.js';
+import './Components/Dropdown/DropdownTopic.js';
 
 const switchTheme = document.querySelectorAll('.default');
 const sidebarMoon = document.querySelector('sidebar-moon');
