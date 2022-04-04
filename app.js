@@ -18,6 +18,9 @@ import './Components/Dropdown/DropdownSettings.js';
 import './Components/Dropdown/DropdownHelp.js';
 import './Components/Dropdown/DropdownDisplay.js';
 import './Components/Dropdown/DropdownShortcuts.js';
+import './Components/Dropdown/DropdownUsername.js';
+import './Components/Dropdown/DropdownText.js';
+import './Components/Styles/BorderStyle.js';
 
 const switchTheme = document.querySelectorAll('.default');
 const sidebarMoon = document.querySelector('sidebar-moon');
