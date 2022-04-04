@@ -3,7 +3,8 @@ import { css } from '../../lit.js';
 const DropdownStyles = css`
 	:host,
 	div {
-		display: inline-flex;
+		display: flex;
+		flex-basis: 100%;
 		align-items: center;
 		gap: 16px;
 		border-radius: 0px;

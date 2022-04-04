@@ -10,6 +10,14 @@ import './Components/Sidebar/SidebarLogo.js';
 import './Components/Sidebar/SidebarUsername.js';
 import './Components/Button/PrimaryButton.js';
 import './Components/Dropdown/DropdownTopic.js';
+import './Components/Dropdown/DropdownNews.js';
+import './Components/Dropdown/DropdownSpaces.js';
+import './Components/Dropdown/DropdownAds.js';
+import './Components/Dropdown/DropdownAnalytics.js';
+import './Components/Dropdown/DropdownSettings.js';
+import './Components/Dropdown/DropdownHelp.js';
+import './Components/Dropdown/DropdownDisplay.js';
+import './Components/Dropdown/DropdownShortcuts.js';
 
 const switchTheme = document.querySelectorAll('.default');
 const sidebarMoon = document.querySelector('sidebar-moon');
