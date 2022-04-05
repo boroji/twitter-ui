@@ -1,3 +1,6 @@
+import './Components/Button/PrimaryButton.js';
+
+// Sidebar
 import './Components/Sidebar/SidebarHome.js';
 import './Components/Sidebar/SidebarExplore.js';
 import './Components/Sidebar/SidebarNotification.js';
@@ -8,7 +11,8 @@ import './Components/Sidebar/SidebarProfile.js';
 import './Components/Sidebar/SidebarMoon.js';
 import './Components/Sidebar/SidebarLogo.js';
 import './Components/Sidebar/SidebarUsername.js';
-import './Components/Button/PrimaryButton.js';
+
+// Dropdown
 import './Components/Dropdown/DropdownTopic.js';
 import './Components/Dropdown/DropdownNews.js';
 import './Components/Dropdown/DropdownSpaces.js';
@@ -20,46 +24,12 @@ import './Components/Dropdown/DropdownDisplay.js';
 import './Components/Dropdown/DropdownShortcuts.js';
 import './Components/Dropdown/DropdownUsername.js';
 import './Components/Dropdown/DropdownText.js';
+
+// Borders
 import './Components/Border/HorizonalBorder.js';
 import './Components/Border/VerticalBorder.js';
 
-const switchTheme = document.querySelectorAll('.default');
-const sidebarMoon = document.querySelector('sidebar-moon');
-
-sidebarMoon.addEventListener('click', () => {
-	document.body.classList.toggle('light-theme');
-	document.body.classList.toggle('dark-theme');
-
-	switchTheme.forEach(singleElements => {
-		singleElements.classList.toggle('default');
-		singleElements.classList.toggle('dark');
-	});
-});
-
-const dropdownUsername = document.querySelector('#dropdownUsername');
-const sidebarUsername = document.querySelector('sidebar-username');
-
-sidebarUsername.addEventListener('click', () => {
-	const flexString = 'display: flex;';
-	const attr = dropdownUsername.getAttribute('style');
-
-	if (attr === flexString) {
-		dropdownUsername.style.display = 'none';
-	} else {
-		dropdownUsername.style.display = 'flex';
-	}
-});
-
-const dropdownItems = document.querySelector('#dropdownItems');
-const sidebarMore = document.querySelector('sidebar-more');
-
-sidebarMore.addEventListener('click', () => {
-	const flexString = 'display: flex;';
-	const attr = dropdownItems.getAttribute('style');
-
-	if (attr === flexString) {
-		dropdownItems.style.display = 'none';
-	} else {
-		dropdownItems.style.display = 'flex';
-	}
-});
+// JavaScript Events
+import './JavaScript/ThemeSwitch.js';
+import './JavaScript/UsernameEvent.js';
+import './JavaScript/DropdownEvent.js';
