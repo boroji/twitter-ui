@@ -79,6 +79,7 @@ aside section {
 	align-items: flex-start;
 	flex-direction: column;
 	gap: 16px;
+	position: relative;
 }
 
 aside footer {
@@ -95,12 +96,16 @@ aside footer {
 	overflow: clip;
 	flex-direction: column;
 	position: absolute;
-	bottom: 16%;
-	left: 80%;
 	border-radius: 16px;
 }
 
-aside footer #dropdownUsername {
+#dropdownItems {
+	top: 35%;
+	left: 40%;
+}
+
+#dropdownUsername {
+	bottom: 16%;
 	left: 5%;
 }
 

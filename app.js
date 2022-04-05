@@ -37,10 +37,23 @@ sidebarMoon.addEventListener('click', () => {
 });
 
 const dropdownUsername = document.querySelector('#dropdownUsername');
-const dropdownItems = document.querySelector('#dropdownItems');
 const sidebarUsername = document.querySelector('sidebar-username');
 
 sidebarUsername.addEventListener('click', () => {
+	const flexString = 'display: flex;';
+	const attr = dropdownUsername.getAttribute('style');
+
+	if (attr === flexString) {
+		dropdownUsername.style.display = 'none';
+	} else {
+		dropdownUsername.style.display = 'flex';
+	}
+});
+
+const dropdownItems = document.querySelector('#dropdownItems');
+const sidebarMore = document.querySelector('sidebar-more');
+
+sidebarMore.addEventListener('click', () => {
 	const flexString = 'display: flex;';
 	const attr = dropdownItems.getAttribute('style');
 
@@ -49,12 +62,4 @@ sidebarUsername.addEventListener('click', () => {
 	} else {
 		dropdownItems.style.display = 'flex';
 	}
-});
-
-sidebarUsername.addEventListener('mouseover', () => {
-	dropdownUsername.style.display = 'flex';
-});
-
-sidebarUsername.addEventListener('mouseout', () => {
-	dropdownUsername.style.display = 'none';
 });
