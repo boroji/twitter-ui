@@ -20,7 +20,8 @@ import './Components/Dropdown/DropdownDisplay.js';
 import './Components/Dropdown/DropdownShortcuts.js';
 import './Components/Dropdown/DropdownUsername.js';
 import './Components/Dropdown/DropdownText.js';
-import './Components/Styles/BorderStyle.js';
+import './Components/Border/HorizonalBorder.js';
+import './Components/Border/VerticalBorder.js';
 
 const switchTheme = document.querySelectorAll('.default');
 const sidebarMoon = document.querySelector('sidebar-moon');
@@ -33,4 +34,27 @@ sidebarMoon.addEventListener('click', () => {
 		singleElements.classList.toggle('default');
 		singleElements.classList.toggle('dark');
 	});
+});
+
+const dropdownUsername = document.querySelector('#dropdownUsername');
+const dropdownItems = document.querySelector('#dropdownItems');
+const sidebarUsername = document.querySelector('sidebar-username');
+
+sidebarUsername.addEventListener('click', () => {
+	const flexString = 'display: flex;';
+	const attr = dropdownItems.getAttribute('style');
+
+	if (attr === flexString) {
+		dropdownItems.style.display = 'none';
+	} else {
+		dropdownItems.style.display = 'flex';
+	}
+});
+
+sidebarUsername.addEventListener('mouseover', () => {
+	dropdownUsername.style.display = 'flex';
+});
+
+sidebarUsername.addEventListener('mouseout', () => {
+	dropdownUsername.style.display = 'none';
 });

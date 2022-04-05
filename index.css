@@ -90,7 +90,7 @@ aside footer {
 
 #dropdownItems,
 #dropdownUsername {
-	display: flex;
+	display: none;
 	width: 320px;
 	overflow: clip;
 	flex-direction: column;
