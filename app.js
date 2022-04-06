@@ -27,6 +27,7 @@ import './Components/Dropdown/DropdownText.js';
 
 // Newsfeed
 import './Components/Newsfeed/FollowInfo.js';
+import './Components/Newsfeed/TrendingInfo.js';
 
 // Borders
 import './Components/Border/HorizonalBorder.js';
