@@ -24,6 +24,7 @@ aside section {
 	position: relative;
 	z-index: 2;
 	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 aside footer {

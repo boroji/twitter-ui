@@ -4,12 +4,19 @@ const SidebarUsernameStyles = css`
 	:host,
 	div {
 		display: flex;
+		flex-wrap: wrap;
 		flex-basis: 100%;
 		gap: 16px;
 		align-items: center;
 		border-radius: 100px;
 		transition: all 100ms ease-out;
 		cursor: pointer;
+	}
+
+	@media (max-width: 920px) {
+		:host primary-button {
+			width: 100%;
+		}
 	}
 
 	div {
