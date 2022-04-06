@@ -1,5 +1,6 @@
 @import './CSS/Colors.css';
 @import './CSS/Reset.css';
+@import './CSS/ScrollReset.css';
 @import './CSS/SwitchTheme.css';
 @import './CSS/Layout.css';
 @import './CSS/Aside.css';
@@ -7,5 +8,7 @@
 
 main {
 	display: flex;
+	height: 5000px;
 	place-items: center;
+	background: linear-gradient(180deg, #c4c4c4 0%, rgba(196, 196, 196, 0) 100%);
 }
