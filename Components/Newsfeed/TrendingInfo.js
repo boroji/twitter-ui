@@ -25,9 +25,6 @@ class TrendingInfo extends LitElement {
 
 			:host section {
 				flex-basis: 240px;
-			}
-
-			:host section {
 				gap: 8px;
 			}
 
