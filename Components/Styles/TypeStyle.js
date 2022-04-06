@@ -20,6 +20,14 @@ class TypeStyle extends LitElement {
 				text-decoration: none;
 			}
 
+			:host(.default) {
+				color: var(--secondary-15);
+			}
+
+			:host(.dark) {
+				color: var(--gray-100);
+			}
+
 			:host(.regular) {
 				font-weight: var(--regular-weight);
 			}

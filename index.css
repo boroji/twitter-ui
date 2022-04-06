@@ -3,6 +3,7 @@
 @import './CSS/SwitchTheme.css';
 @import './CSS/Layout.css';
 @import './CSS/Aside.css';
+@import './CSS/Newsfeed.css';
 
 main {
 	display: flex;
