@@ -25,6 +25,9 @@ import './Components/Dropdown/DropdownShortcuts.js';
 import './Components/Dropdown/DropdownUsername.js';
 import './Components/Dropdown/DropdownText.js';
 
+// Newsfeed
+import './Components/Newsfeed/FollowInfo.js';
+
 // Borders
 import './Components/Border/HorizonalBorder.js';
 import './Components/Border/VerticalBorder.js';

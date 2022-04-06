@@ -3,3 +3,8 @@
 @import './CSS/SwitchTheme.css';
 @import './CSS/Layout.css';
 @import './CSS/Aside.css';
+
+main {
+	display: flex;
+	place-items: center;
+}
