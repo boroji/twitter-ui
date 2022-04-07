@@ -48,6 +48,7 @@ aside footer {
 #dropdownItems {
 	top: 35%;
 	left: 40%;
+	z-index: 5;
 }
 
 #dropdownUsername {
