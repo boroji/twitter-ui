@@ -18,11 +18,6 @@ class FollowInfo extends LitElement {
 				height: 48px;
 			}
 
-			:host,
-			div {
-				border-radius: 16px;
-			}
-
 			#usernameOfficial {
 				padding: 0px;
 				gap: 8px;

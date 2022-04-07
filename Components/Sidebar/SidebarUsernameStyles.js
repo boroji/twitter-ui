@@ -8,7 +8,7 @@ const SidebarUsernameStyles = css`
 		flex-basis: 100%;
 		gap: 16px;
 		align-items: center;
-		border-radius: 100px;
+		border-radius: 16px;
 		transition: all 100ms ease-out;
 		cursor: pointer;
 	}

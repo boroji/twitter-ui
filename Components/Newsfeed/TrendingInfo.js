@@ -18,11 +18,6 @@ class TrendingInfo extends LitElement {
 				border-radius: 16px;
 			}
 
-			:host,
-			div {
-				border-radius: 16px;
-			}
-
 			:host section {
 				flex-basis: 240px;
 				gap: 8px;
