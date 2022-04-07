@@ -16,6 +16,14 @@ class TrendingInfo extends LitElement {
 				width: 72px;
 				height: 72px;
 				border-radius: 16px;
+				object-fit: cover;
+			}
+
+			@media (max-width: 1320px) {
+				:host img {
+					width: 100%;
+					height: auto;
+				}
 			}
 
 			:host section {

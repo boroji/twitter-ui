@@ -34,6 +34,8 @@ import './Components/Border/HorizonalBorder.js';
 import './Components/Border/VerticalBorder.js';
 
 // JavaScript Events
-import './JavaScript/ThemeSwitch.js';
 import './JavaScript/UsernameEvent.js';
 import './JavaScript/DropdownEvent.js';
+import './JavaScript/FollowInfoMap.js';
+import './JavaScript/TrendingInfoMap.js';
+import './JavaScript/ThemeSwitch.js';
