@@ -6,6 +6,17 @@ import './Components/IconButton/EmojiIcon.js';
 import './Components/IconButton/EventIcon.js';
 import './Components/IconButton/LocationIcon.js';
 import './Components/IconButton/StarIcon.js';
+import './Components/IconButton/CommentIcon.js';
+import './Components/IconButton/RetweetIcon.js';
+import './Components/IconButton/RetweetIconFilled.js';
+import './Components/IconButton/LikeIcon.js';
+import './Components/IconButton/LikeIconFilled.js';
+import './Components/IconButton/ShareIcon.js';
+import './Components/IconButton/MenuIcon.js';
+import './Components/IconButton/PromotedIcon.js';
+import './Components/IconButton/FollowedIcon.js';
+import './Components/IconButton/PinnedIcon.js';
+import './Components/IconButton/OfficialIcon.js';
 
 import './Components/Button/PrimaryButton.js';
 
