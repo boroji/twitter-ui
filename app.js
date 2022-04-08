@@ -1,3 +1,6 @@
+// Icon Button
+import './Components/IconButton/ImageIcon.js';
+
 import './Components/Button/PrimaryButton.js';
 
 // Sidebar

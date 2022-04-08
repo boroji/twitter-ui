@@ -28,6 +28,34 @@ class TypeStyle extends LitElement {
 				color: var(--gray-100);
 			}
 
+			:host(.gray) {
+				color: var(--gray-40);
+			}
+
+			:host(.success) {
+				color: var(--success-35);
+			}
+
+			:host(.successDark) {
+				color: var(--success-60);
+			}
+
+			:host(.alert) {
+				color: var(--alert-50);
+			}
+
+			:host(.alertDark) {
+				color: var(--alert-70);
+			}
+
+			:host(.primary) {
+				color: var(--primary-50);
+			}
+
+			:host(.primaryDark) {
+				color: var(--primary-70);
+			}
+
 			:host(.regular) {
 				font-weight: var(--regular-weight);
 			}
