@@ -1,5 +1,11 @@
 // Icon Button
 import './Components/IconButton/ImageIcon.js';
+import './Components/IconButton/AnalyticsIcon.js';
+import './Components/IconButton/GifIcon.js';
+import './Components/IconButton/EmojiIcon.js';
+import './Components/IconButton/EventIcon.js';
+import './Components/IconButton/LocationIcon.js';
+import './Components/IconButton/StarIcon.js';
 
 import './Components/Button/PrimaryButton.js';
 
