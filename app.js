@@ -58,4 +58,5 @@ import './JavaScript/UsernameEvent.js';
 import './JavaScript/DropdownEvent.js';
 import './JavaScript/FollowInfoMap.js';
 import './JavaScript/TrendingInfoMap.js';
+import './JavaScript/TweetCardMap.js';
 import './JavaScript/ThemeSwitch.js';

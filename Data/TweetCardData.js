@@ -70,16 +70,18 @@ const TweetCardData = [
 		svgString : 'Retweeted',
 	},
 	{
-		profile  : './Images/Asana.jpg',
-		imageUrl : './Images/AsanaBackground.jpg',
-		account  : 'Asana',
-		content  :
+		profile   : './Images/Asana.jpg',
+		imageUrl  : './Images/AsanaBackground.jpg',
+		account   : 'Asana',
+		content   :
 			'With much of our work project-based, timelines and deadlines are critical to project success. Asana 2022 Anatomy of Work Report shows missed deadlines have reduced by 50% since last year. What do workers really want when it comes to #remote & #hybridwork? How much time are we actually losing to meetings? Our 2022 Anatomy of Work Index reveals some staggering stats about the state of knowledge work today & how it will evolve tomorrow.',
-		time     : 'Apr 5',
-		username : '@asana',
-		comment  : '238',
-		retweet  : '635',
-		like     : '245',
+		time      : 'Apr 5',
+		username  : '@asana',
+		comment   : '238',
+		retweet   : '635',
+		like      : '245',
+		svg       : 'like',
+		svgString : 'Liked',
 	},
 	{
 		profile   : './Images/Figma.png',
