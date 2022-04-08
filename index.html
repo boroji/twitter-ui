@@ -105,6 +105,7 @@
 
 		<main>
 			<div id="home">
+				<!-- Home Header -->
 				<div>
 					<type-style
 						class="size-20px bold default"
@@ -113,7 +114,10 @@
 					<star-icon class="default"></star-icon>
 				</div>
 				<div>
-					<img src="./Images/Avatar.jpg">
+					<img
+						class="image-style"
+						src="./Images/Avatar.jpg"
+					>
 					<type-style
 						class="size-20px regular default gray"
 						label="What is happening?"
@@ -133,19 +137,77 @@
 						class="default regular"
 					></primary-button>
 				</div>
-			</div>
-			<div>
-				<comment-icon class="default"></comment-icon>
-				<retweet-icon class="default"></retweet-icon>
-				<retweet-icon-filled class="default"></retweet-icon-filled>
-				<like-icon class="default"></like-icon>
-				<like-icon-filled class="default"></like-icon-filled>
-				<share-icon class="default"></share-icon>
-				<menu-icon class="default"></menu-icon>
-				<official-icon class="default"></official-icon>
-				<promoted-icon class="default"></promoted-icon>
-				<followed-icon class="default"></followed-icon>
-				<pinned-icon class="default"></pinned-icon>
+				<!-- Tweet Cards -->
+				<section>
+					<div>
+						<img
+							class="image-style"
+							src="./Images/Avatar.jpg"
+						>
+						<div>
+							<like-icon-filled class="default"></like-icon-filled>
+							<type-style
+								label="Liked"
+								class="default alert size-14px bold"
+							></type-style>
+						</div>
+					</div>
+					<div>
+						<div>
+							<type-style
+								label="First Name"
+								class="default size-20px bold"
+							></type-style>
+							<official-icon class="default"></official-icon>
+							<type-style
+								label="@Username"
+								class="default gray size-14px regular"
+							></type-style>
+							<type-style
+								label="24 hour ago"
+								class="default gray size-14px regular"
+							></type-style>
+						</div>
+						<div>
+							<menu-icon class="default"></menu-icon>
+						</div>
+					</div>
+					<div class="tweet-content">
+						<type-style
+							label="Placeholder content"
+							class="default gray size-14px-body"
+						></type-style>
+						<img src="./Images/AlgoliaBackground.jpg">
+					</div>
+					<div>
+						<div>
+							<comment-icon class="default"></comment-icon>
+							<type-style
+								label="100"
+								class="default primary size-14px-body"
+							></type-style>
+						</div>
+						<div>
+							<retweet-icon class="default"></retweet-icon>
+							<type-style
+								label="100"
+								class="default success size-14px-body"
+							></type-style>
+						</div>
+						<div>
+							<like-icon class="default"></like-icon>
+							<type-style
+								label="100"
+								class="default alert size-14px-body"
+							></type-style>
+						</div>
+						<div>
+							<share-icon class="default"></share-icon>
+						</div>
+					</div>
+					<horizonal-border class="default">
+						</horizontal-border>
+				</section>
 			</div>
 		</main>
 

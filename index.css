@@ -2,12 +2,14 @@
 @import './CSS/Reset.css';
 @import './CSS/ScrollReset.css';
 @import './CSS/SwitchTheme.css';
+@import './CSS/Image.css';
 @import './CSS/Layout.css';
 @import './CSS/Aside.css';
 @import './CSS/Newsfeed.css';
 @import './CSS/Home.css';
+@import './CSS/Tweet.css';
 
 main {
 	display: flex;
-	place-items: center;
+	flex-direction: column;
 }

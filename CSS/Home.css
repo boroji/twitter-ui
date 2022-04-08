@@ -12,13 +12,6 @@
 	align-items: center;
 }
 
-#home div:nth-child(2) img {
-	width: 72px;
-	height: 72px;
-	object-fit: cover;
-	border-radius: 100px;
-}
-
 #home div:nth-child(2) {
 	justify-content: flex-start;
 	gap: 16px;
