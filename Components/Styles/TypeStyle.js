@@ -28,31 +28,35 @@ class TypeStyle extends LitElement {
 				color: var(--gray-100);
 			}
 
-			:host(.gray) {
+			:host(.default.gray) {
 				color: var(--gray-40);
 			}
 
-			:host(.success) {
+			:host(.dark.gray) {
+				color: var(--gray-100);
+			}
+
+			:host(.default.success) {
 				color: var(--success-35);
 			}
 
-			:host(.successDark) {
+			:host(.dark.success) {
 				color: var(--success-60);
 			}
 
-			:host(.alert) {
+			:host(.default.alert) {
 				color: var(--alert-50);
 			}
 
-			:host(.alertDark) {
+			:host(.dark.alert) {
 				color: var(--alert-70);
 			}
 
-			:host(.primary) {
+			:host(.default.primary) {
 				color: var(--primary-50);
 			}
 
-			:host(.primaryDark) {
+			:host(.dark.primary) {
 				color: var(--primary-70);
 			}
 

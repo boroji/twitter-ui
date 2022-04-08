@@ -5,6 +5,7 @@
 @import './CSS/Layout.css';
 @import './CSS/Aside.css';
 @import './CSS/Newsfeed.css';
+@import './CSS/Home.css';
 
 main {
 	display: flex;
